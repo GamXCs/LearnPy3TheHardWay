@@ -20,5 +20,5 @@ convert_lbs_kgs = weight * 2.2
 total = age + height + weight
 print(f"If I add {age}, {height}, and {weight} I got {total}.")
 
-print(f"My height in centimeters is {convert_in_to_cm} cm's and my weight in kilograms is {convert_lbs_kgs}")
+print(f"My height in centimeters is {convert_in_to_cm} cm's and my weight in kilograms is {convert_lbs_kgs:.2f}")
 
